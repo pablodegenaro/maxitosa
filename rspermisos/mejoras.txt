@@ -1,0 +1,28 @@
+╔════════════════════════════════════════════════╗
+║  LA ACTUALIZACION DE PERSMISOS A RS-PERMISOS   ║
+╚════════════════════════════════════════════════╝
+se diseñó para dar una escalabilidad adecuada a los desarrollos multi-proyecto y multi-menu dispuestos 
+dentro del mismo proyecto "APPWEB" basandose en las limitaciones del sistema de permisos diseñado anteriormente.
+
+dicha actualizacion poseerá:
+
+    > un solo inicio de sesion para multi-proyecto
+    > rediseño de la vista de permisos y su gestion
+    > organizacion de menus agrupados por proyecto
+    > agrupacion de menus
+        »   esta mejora da amplitud a tener multiples menus de acuerdo la necesidad, asi como tambien, tener un miniproyecto 
+            dentro de "appweb" con sus propias opciones de menu y modulo separado del principal.
+    > posibilidad de gestionar menu horizontal y menu vertical
+        »   capacidad de tener vistas con opciones horizontal o vertical dinamica con el sistema de permisos.
+    > los modulos de la app pueden tener permisos particulares de una vista individual
+        »   mejora de extension de permisos para dar accesos a opciones visuales o de procesos en una sola vista
+        »   capacidad de requerir una autorizacion por contraseña de un usuario con rol que tiene permiso adm
+        »   historico de usuarios con rol que tiene permiso adm que dieron acceso a un permiso ext
+    > correccion de un modulo inhabilitado, no aparecera como opcion listada em un menu asi el usuario tenga permiso a el mismo
+    > correccion de error en exportacion e importacion de menus, permisos y modulos
+    > establecimiento de que menu >home< vera el usuario al ingresar a "appweb" 
+    > el establecimiento de dashboard a un rol se integrara a multi-menu
+
+
+se pretende realizar esta mejora en paralelo a lo diseñado actualmente para no afectar los procesos ya existentes en las app en 
+produccion.
